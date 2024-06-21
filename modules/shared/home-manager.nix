@@ -113,6 +113,11 @@ let name = "Ryan Curtin";
 
       # Always color ls and group directories
       alias ls='ls --color=auto'
+
+      # Projects
+      alias dk="cd ~/src/ryancurtin/datatoolkit"
+      alias datatoolkit="cd ~/src/ryancurtin/datatoolkit"
+      alias dkdeps="cd ~/src/ryancurtin/datatoolkit/docker && docker compose up"
     '';
   };
 

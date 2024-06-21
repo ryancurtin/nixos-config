@@ -60,8 +60,8 @@ with pkgs; [
   python39Packages.virtualenv # globally install virtualenv
 
   # Elixir
-  erlang_25
-  elixir_1_15
+  erlang_27
+  elixir_1_17
 
   # Rust
   rustup
