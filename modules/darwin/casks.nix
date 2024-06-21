@@ -4,6 +4,7 @@ _:
   # Development Tools
   "homebrew/cask/docker"
   "visual-studio-code"
+  "karabiner-elements"
 
   # Communication Tools
   "discord"
