@@ -70,12 +70,7 @@ in
     { path = "/System/Applications/Facetime.app/"; }
     { path = "/System/Applications/Maps.app/"; }
     {
-      path = "${config.users.users.${user}.home}/.local/share/";
-      section = "others";
-      options = "--sort name --view grid --display folder";
-    }
-    {
-      path = "${config.users.users.${user}.home}/.local/share/downloads";
+      path = "${config.users.users.${user}.home}/Downloads";
       section = "others";
       options = "--sort name --view grid --display stack";
     }
