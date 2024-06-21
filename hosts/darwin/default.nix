@@ -44,7 +44,7 @@ let user = "ryancurtin"; in
   launchd.user.agents.postgres.serviceConfig = {
     KeepAlive = true;
     ProgramArguments = [
-      "/bin/wait4path ${pkgs.postgresql_16}/bin/postgres"
+      "${pkgs.postgresql_16}/bin/postgres"
       "-D"
       "/Users/ryancurtin/src/postgres/data"
     ];
