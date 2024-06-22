@@ -71,4 +71,7 @@ with pkgs; [
   sqlite
   postgresql_16
   unixODBC
+
+  # Minio
+  minio-client
 ]

@@ -10,7 +10,7 @@ let name = "Ryan Curtin";
     autocd = false;
     oh-my-zsh = {
       enable = true;
-      plugins = [ "git" "thefuck" "vscode" ];
+      plugins = [ "git" "vscode" ];
       theme = "wedisagree";
     };
 
