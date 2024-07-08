@@ -40,6 +40,7 @@ with pkgs; [
   nodePackages.npm # globally install npm
   nodePackages.prettier
   nodejs
+  yarn
   chromedriver
 
   # Text and terminal utilities
