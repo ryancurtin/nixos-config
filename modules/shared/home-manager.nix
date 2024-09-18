@@ -119,9 +119,9 @@ let name = "Ryan Curtin";
       alias ls='ls --color=auto'
 
       # Projects
-      alias dk="cd ~/src/ryancurtin/datatoolkit"
-      alias datatoolkit="cd ~/src/ryancurtin/datatoolkit"
-      alias dkdeps="cd ~/src/ryancurtin/datatoolkit/docker && docker compose up"
+      alias dk="cd ~/src/nexadata/datatoolkit"
+      alias datatoolkit="cd ~/src/nexadata/datatoolkit"
+      alias dkdeps="cd ~/src/nexadata/datatoolkit/docker && docker compose up"
     '';
   };
 
