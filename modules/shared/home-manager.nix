@@ -94,9 +94,13 @@ let name = "Ryan Curtin";
       alias drmi="docker rmi \$(docker images | grep '^\<none\>' | awk "{print $3}")"
       alias dcd="docker compose down"
       alias dcu="docker compose down"
+      alias ecrlogin="aws ecr get-login-password --region us-east-2 | docker login --username AWS --password-stdin 021891588491.dkr.ecr.us-east-2.amazonaws.com"
 
       ## Postgres
       export PG_DATA="~/src/postgres/data"
+
+      ## Vault
+      export VAULT_ADDR='http://127.0.0.1:8200'
 
       ## Erlang / Elixir
 

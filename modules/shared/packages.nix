@@ -64,6 +64,15 @@ with pkgs; [
   erlang_27
   elixir_1_17
 
+  # Terraform
+  tenv
+
+  # Vault
+  vault
+
+  # AWS
+  awscli2
+
   # Rust
   rustup
   rustc
