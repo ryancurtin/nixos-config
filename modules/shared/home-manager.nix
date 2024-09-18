@@ -122,6 +122,8 @@ let name = "Ryan Curtin";
       alias dk="cd ~/src/nexadata/datatoolkit"
       alias datatoolkit="cd ~/src/nexadata/datatoolkit"
       alias dkdeps="cd ~/src/nexadata/datatoolkit/docker && docker compose up"
+
+      source ~/.zsh-nx
     '';
   };
 
