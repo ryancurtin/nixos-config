@@ -41,7 +41,6 @@ with pkgs; [
   nodePackages.prettier
   nodejs
   yarn
-  chromedriver
 
   # Text and terminal utilities
   htop
@@ -63,6 +62,11 @@ with pkgs; [
   # Elixir
   erlang_27
   elixir_1_17
+
+  # Browser testing (Elixir w/ Wallaby)
+  (chromedriver.overrideAttrs (oldAttrs: rec {
+    version = "129.0.6668.58";
+  }))
 
   # Terraform
   tenv

@@ -47,7 +47,7 @@ in
           sharedFiles
           additionalFiles
         ];
-        stateVersion = "23.11";
+        stateVersion = "24.05";
       };
       programs = {} // import ../shared/home-manager.nix { inherit config pkgs lib; };
 
