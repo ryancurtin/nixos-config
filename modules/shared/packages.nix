@@ -60,13 +60,12 @@ with pkgs; [
   python39Packages.virtualenv # globally install virtualenv
 
   # Elixir
-  erlang_27
   elixir_1_17
+  erlang_27
+  chromedriver
 
-  # Browser testing (Elixir w/ Wallaby)
-  (chromedriver.overrideAttrs (oldAttrs: rec {
-    version = "129.0.6668.58";
-  }))
+  # Ruby
+  ruby_3_3
 
   # Terraform
   tenv
