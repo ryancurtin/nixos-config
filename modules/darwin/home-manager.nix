@@ -66,7 +66,6 @@ in
     { path = "/Applications/Visual Studio Code.app/"; }
     { path = "/Applications/ITerm.app/"; }
     { path = "/Applications/Slack.app/"; }
-    { path = "/System/Applications/Messages.app/"; }
     { path = "/System/Applications/Facetime.app/"; }
     { path = "/System/Applications/Maps.app/"; }
     {
