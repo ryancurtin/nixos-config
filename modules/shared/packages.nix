@@ -62,7 +62,10 @@ with pkgs; [
   # Elixir
   elixir_1_17
   erlang_27
-  chromedriver
+  imagemagick
+
+  # Golang
+  hugo
 
   # Ruby
   ruby_3_3

@@ -25,6 +25,8 @@ let name = "Ryan Curtin";
       export PATH=$HOME/.npm-packages/bin:$HOME/bin:$PATH
       export PATH=$HOME/.local/share/bin:$PATH
 
+      export PATH=$HOME/.ghcup/bin:$PATH
+
       # Remove history data we don't want to see
       export HISTIGNORE="pwd:ls:cd"
 

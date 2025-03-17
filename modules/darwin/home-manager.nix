@@ -21,6 +21,7 @@ in
 
   homebrew = {
     enable = true;
+    onActivation.autoUpdate = false;
     casks = pkgs.callPackage ./casks.nix {};
     # onActivation.cleanup = "uninstall";
 
