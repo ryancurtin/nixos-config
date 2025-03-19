@@ -63,6 +63,7 @@ with pkgs; [
   elixir_1_17
   erlang_27
   imagemagick
+  chromedriver
 
   # Golang
   hugo
